@@ -27,4 +27,3 @@ public class Fahrenheit extends Temperature {
         return temp.concat(" F");
     }
 }
-

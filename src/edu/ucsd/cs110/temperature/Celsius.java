@@ -5,10 +5,10 @@ package edu.ucsd.cs110.temperature;
  */
 public class Celsius extends Temperature {
 
-        public Celsius(float t)
-        {
-            super(t);
-        }
+    public Celsius(float t)
+    {
+        super(t);
+    }
 
     @Override
     public Temperature toCelsius() {
@@ -22,9 +22,9 @@ public class Celsius extends Temperature {
 
 
     public String toString()
-        {
-            // TODO: Complete this method
-            String temp = String.valueOf(value);
-            return temp.concat(" C");
-        }
+    {
+        // TODO: Complete this method
+        String temp = String.valueOf(value);
+        return temp.concat(" C");
+    }
 }
